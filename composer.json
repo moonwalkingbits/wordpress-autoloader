@@ -2,7 +2,7 @@
 	"name": "moonwalkingbits/wordpress-autoloader",
 	"description": "A class loader for the WordPress coding standards.",
 	"type": "library",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Martin Pettersson",

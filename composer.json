@@ -1,0 +1,35 @@
+{
+	"name": "moonwalkingbits/wordpress-autoloader",
+	"description": "A class loader for the WordPress coding standards.",
+	"type": "library",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Martin Pettersson",
+			"email": "martin@moonwalkingbits.com"
+		}
+	],
+	"scripts": {
+		"lint": "phpcs -p --standard=WordPress src",
+		"analyze": [
+			"phpmd src ansi phpmd.xml",
+			"phan --output-mode text --progress-bar --color --allow-polyfill-parser"
+		],
+		"test": "phpunit"
+	},
+	"minimum-stability": "stable",
+	"autoload": {
+		"files": [
+			"src/class-autoloader.php"
+		]
+	},
+	"require": {},
+	"require-dev": {
+		"phpunit/phpunit": "^9.2",
+		"squizlabs/php_codesniffer": "^3.5",
+		"phan/phan": "^3.0",
+		"phpmd/phpmd": "^2.8",
+		"wp-coding-standards/wpcs": "^2.3",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.6.2"
+	}
+}

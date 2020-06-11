@@ -8,8 +8,9 @@ including the file before you use the class, or having to check if the class
 is available you just use it. If it is not yet included it will be automatically
 included by the autoloader.
 
-The only class file you need to include is the autoloader. After you've set it
-up it will take care of the rest of the includes.
+The only class file you need to include is the autoloader. Or if you use this
+library as a composer package it is enough to include composer's `autoload.php`.
+After you've set it up it will take care of the rest of the includes.
 
 ```php
 <?php

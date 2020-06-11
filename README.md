@@ -1,4 +1,4 @@
-# Autoloader
+# WordPress Autoloader
 
 A class loader for the WordPress coding standards.
 
@@ -33,9 +33,7 @@ statements.
 ## Nested namespaces
 
 The autoloader will resolve any classes with nested namespace as long as the
-directory structure follows the namespace path.
-
-**Example:**
+directory structure follows the namespace path:
 
 ```php
 <?php
@@ -57,9 +55,7 @@ correctly.
 ## Classes without namespace
 
 To load classes that do not use any namespace just register the mapping with an
-empty namespace.
-
-**Example:**
+empty namespace:
 
 ```php
 <?php

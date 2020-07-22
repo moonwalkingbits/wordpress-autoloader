@@ -1,6 +1,6 @@
 # WordPress Autoloader
 
-A class loader for the WordPress coding standards.
+A class loader for the [WordPress coding standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/php/).
 
 When taking the object oriented approach to developing in PHP, autoloading can
 get rid of all the include/require statements in your code. Instead of manually

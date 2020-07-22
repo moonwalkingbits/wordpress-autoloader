@@ -65,6 +65,4 @@ $autoloader->add_namespace_mappint( '', '/path/to/classes' );
 
 ## License
 
-Autoloader is released under the [GPL](license) license.
-
-[license](https://www.gnu.org/licenses/)
+Autoloader is released under the [GPL](https://www.gnu.org/licenses/) license.

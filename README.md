@@ -6,7 +6,7 @@ When taking the object oriented approach to developing in PHP, autoloading can
 get rid of all the include/require statements in your code. Instead of manually
 including the file before you use the class, or having to check if the class
 is available you just use it. If it is not yet included it will be automatically
-included by the autoloader.
+included by the class loader.
 
 The only class file you need to include is the autoloader. Or if you use this
 library as a composer package it is enough to include composer's `autoload.php`.

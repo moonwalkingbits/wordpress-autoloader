@@ -60,7 +60,7 @@ empty namespace:
 ```php
 <?php
 
-$autoloader->add_namespace_mappint( '', '/path/to/classes' );
+$autoloader->add_namespace_mapping( '', '/path/to/classes' );
 ```
 
 ## License
